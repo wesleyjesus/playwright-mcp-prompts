@@ -7,7 +7,7 @@ model: 'Claude Sonnet 4'
 
 # Test Generation with Playwright MCP
 
-Generate comprehensive Playwright tests for one scenario by following a systematic exploration and testing workflow.
+Generate comprehensive Playwright tests for the registration scenario on the TestMu Conference 2025 website (https://www.lambdatest.com/testmuconf-2025) by following a systematic exploration and testing workflow.
 
 ## Process Overview
 
