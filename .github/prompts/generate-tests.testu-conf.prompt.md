@@ -1,7 +1,7 @@
 ---
 mode: test-generator
 description: 'Generate Playwright tests based on user scenarios using systematic exploration'
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'playwright']
+tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'playwright']
 model: 'Claude Sonnet 4'
 ---
 
