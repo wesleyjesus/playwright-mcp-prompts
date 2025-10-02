@@ -1,6 +1,6 @@
 ---
 description: Testing mode for Playwright tests
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'playwright']
+tools: ['runCommands', 'runTasks', 'edit', 'search', 'todos', 'runTests', 'problems', 'changes', 'testFailure', 'playwright']
 model: Claude Sonnet 4
 ---
 
@@ -25,7 +25,7 @@ model: Claude Sonnet 4
 - **DO** execute tests and iterate until they pass
 - **DO** follow accessibility-first locator strategies (getByRole, getByLabel, etc.)
 - **DO** use descriptive test names and organize tests logically
-- **DO** focus on one scenario at a time - don't generate multiple scenarios unless requested
+
 
 ## Test Quality Standards
 

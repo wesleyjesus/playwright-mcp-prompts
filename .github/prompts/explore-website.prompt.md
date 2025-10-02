@@ -1,7 +1,7 @@
 ---
 mode: test-explorer
 description: 'Systematic website exploration using Playwright MCP for test planning'
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'playwright']
+tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'playwright']
 model: 'Claude Sonnet 4'
 ---
 
@@ -14,7 +14,7 @@ Systematically explore websites to understand their structure, functionality, an
 You will be given a website URL. Your task is to:
 
 1. **Navigate and Analyze** - Access the website and understand its overall structure
-2. **Map User Flows** - Identify 3 critical user journeys and interaction patterns
+2. **Map User Flows** - Identify 3 critical user journeys and interaction patterns  
 3. **Catalog Elements** - Document key interactive elements and their accessibility attributes
 4. **Assess States** - Explore different application states and edge cases
 5. **Document Findings** - Provide comprehensive exploration report

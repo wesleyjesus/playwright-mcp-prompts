@@ -1,29 +1,29 @@
 ---
 mode: agent
 description: 'Manually test a site and create a report'
-tools: ['playwright']
-model: 'GPT-4o'
+tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'playwright']
+model: 'Claude Sonnet 4'
 ---
 
 # Manual Testing Instructions
 
-1. Use o Servidor MCP do Playwright para testar manualmente o cenário fornecido pelo usuário. Caso nenhum cenário seja fornecido, peça ao usuário para fornecer um.
-2. Navegue até a URL fornecida pelo usuário e realize as interações descritas. Caso nenhuma URL seja fornecida, peça ao usuário para fornecer um.
-3. Observe e verifique o comportamento esperado, com foco na acessibilidade, na estrutura da interface do usuário e na experiência do usuário.
-4. Relate em linguagem clara e natural:
-- Quais etapas você realizou (navegação, interações, asserções).
-- O que você observou (resultados, alterações na interface do usuário, resultados de acessibilidade).
-- Quaisquer problemas, comportamentos inesperados ou preocupações com acessibilidade encontrados.
-5. Consulte URLs, funções dos elementos e detalhes relevantes para fundamentar suas descobertas.
+1. Use the Playwright MCP Server to manually test the scenario provided by the user. If no scenario is provided, ask the user to provide one.
+2. Navigate to the url provided by the user and perform the described interactions. If no url is provided, ask the user to provide one.
+3. Observe and verify the expected behavior, focusing on accessibility, UI structure, and user experience.
+4. Report back in clear, natural language:
+   - What steps you performed (navigation, interactions, assertions).
+   - What you observed (outcomes, UI changes, accessibility results).
+   - Any issues, unexpected behaviors, or accessibility concerns found.
+5. Reference URLs, element roles, and relevant details to support your findings.
 
-Exemplo de formato de relatório:
-- **Cenário:** [Breve descrição]
-- **Etapas Realizadas:** [Lista de ações realizadas]
-- **Resultado:** [O que aconteceu, incluindo quaisquer afirmações ou verificações de acessibilidade]
-- **Problemas Encontrados:** [Liste quaisquer problemas ou resultados inesperados]
+Example report format:
+- **Scenario:** [Brief description]
+- **Steps Taken:** [List of actions performed]
+- **Outcome:** [What happened, including any assertions or accessibility checks]
+- **Issues Found:** [List any problems or unexpected results]
 
-Gere um arquivo .md com o relatório no diretório `manual-tests` e inclua quaisquer capturas de tela ou snapshots relevantes.
+Generate a .md file with the report in the `manual-tests` directory and include any relevant screenshots or snapshots.
 
-Faça capturas de tela ou snapshots da página, se necessário, para ilustrar problemas ou confirmar o comportamento esperado.
+Take screenshots or snapshots of the page if necessary to illustrate issues or confirm expected behavior.
 
-Feche o navegador após concluir os testes.
+close the browser after completing the manual test.
